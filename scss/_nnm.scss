@@ -1,0 +1,433 @@
+body {
+    @include heading-font;
+    .fa, .fas, .fab{ // Prevent the heading font overriding FontAwesome font-family
+        font-family: 'FontAwesome' !important;
+    };
+}
+
+// Size logo NNM
+
+.nnm-logo {
+    width: 150px;
+}
+
+// Section with red background
+.bg-red {
+  background-image: url('../img/assets/02.png');
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+
+// Container for Nihon No Matsuri description in masthead
+.half-page {
+  width: 50%;
+}
+
+.text-red {
+  color: $primary-lighter !important;
+}
+
+.maskot-pp-container {
+  text-align:center;
+  color: $primary-lighter;
+  font-weight: 700;
+  @include heading-font;
+}
+
+.maskot-pp {
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 2px 2px 3px #999;
+}
+
+// Story
+
+#story-main {
+    padding-bottom: 100px;
+    .story-link {
+        text-align: center;
+        color: $primary;
+        margin: 10px;
+        background-color: white;
+        border-radius: 10px;
+        padding-right: 10px;
+        padding-left: 10px;
+    };
+    .story-link-dead {
+        background-color: $gray-500;
+    }
+}
+
+// Information
+
+#cek-sekarang {
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
+  @media(max-width:768px) { // Untuk HP agar tidak terpotong gambarnya
+    max-width: 100%;
+  }
+}
+
+// reviews
+
+#reviews-container {
+    background-image: url('../img/assets/review-01.png');
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: auto;
+    @media(max-width:768px) {
+        margin-top: -50vh;
+        margin-bottom: 30vh;
+    }
+}
+
+#recent-reviews {
+    font-size: 40px;
+    font-weight: 400;
+    @include heading-font;
+    text-align: center;
+}
+
+#recent-reviews-bold {
+    font-weight: 700;
+}
+
+#reviews-title {
+    color: $primary;
+}
+
+.carousel-indicators {
+    position: relative;
+}
+.carousel-indicators li {
+    display: inline-block;
+    width: 48px;
+    height: 5px;
+    margin: 10px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    background-color: $primary;
+    opacity: 0.5;
+    .active {
+        width: 48px;
+        height: 5px;
+        margin: 10px;
+        background-color: $primary;
+    }
+}
+
+.carousel-item {
+    min-height: 300px;
+    @media(max-width:768px) {
+        min-height: 600px;
+    }
+}
+
+#text-carousel {
+  width: 100%;
+  height: auto;
+  padding: 50px;
+}
+
+.reviews-bintang {
+    .fa-star-merah {
+        color: $primary;
+    }
+    .fa-star-abu {
+        opacity: 0.5;
+    }
+}
+
+.reviews-isi {
+    @include heading-font;
+}
+
+.nama {
+    color: #aaaaaa;
+
+}
+.nama-orang {
+    color: black !important;
+    font-weight: 700;
+}
+
+// Guest
+.guest-container {
+    padding-bottom: 100px;
+}
+
+.guest-title { // guest-title bagus untuk semua heading, buat p.guest-title dan span.guest-bold
+    padding-top: 50px;
+    color: white;
+    font-size: 40px;
+    font-weight: 400;
+    @include heading-font;
+    text-align: center;
+    margin-top: 30vh;
+    .guest-bold {
+        font-weight: 700;
+    }
+}
+
+.carousel-indicators-circle {
+    position: relative;
+    padding: 20px;
+}
+
+.carousel-indicators-circle li {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin: 10px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    background-color: white;
+    opacity: 0.5;
+    .active {
+        width: 15px;
+        height: 15px;
+        margin: 10px;
+        background-color: white;
+    }
+}
+
+.guest-box-container {
+    .guest-box {
+        border-radius: 10px;
+        padding: 10%;
+        margin: 0 auto; //center div
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-color: white;
+        .guest-pp {
+            border-radius: 50%;
+            background-size: cover;
+            width: 100%;
+            height: auto;
+        }
+        .guest-pp-tahun {
+            position: relative; // z-index butuh ini
+            z-index: 1000;
+            padding: 10px;
+            background-color: $primary-lighter;
+            color: white;
+            margin: 0 auto; //center div
+            margin-top: -10px;
+            width: 10vh;
+            line-height: 5px; // mengatur height kotaknya
+            border-radius: 5px;
+            opacity: 0.9;
+        }
+        .guest-name {
+            color: $primary-lighter;
+            margin-top: 10px;
+        }
+        .guest-description {
+            color: #aaaaaa;
+            line-height: 5px;
+        }
+        .btn-guest {
+            background-color: $primary-lighter;
+        }
+    }
+}
+
+#events {
+    .guest-title {
+        color: $primary !important; // secara default, warna .guest-title putih
+        margin-top: 0;
+    }
+    .events-top {
+        text-align: center;
+    }
+    .bg-events {
+        .guest-title {
+            text-align:left;
+            color: $primary;
+        }
+        text-align: left;
+        margin-top: 100px; // gap di atas foto events nnm
+        background-image: url('../img/assets/04.png');
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        background-position: center bottom;
+        height: 150vh; // sesuaikan, cari yang pas
+        .container-fluid {
+            margin-top: 100px;
+        }
+        .events-photo {
+            border-radius: 10px;
+            margin: 0 auto;
+            height: 700px;
+            width: auto;
+            @media(max-width:768px) {
+                height: 500px;
+            }
+
+        }
+    }
+}
+
+.bg-video {
+    background-image: url('../img/assets/03.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center top;
+    height: 150vh; // sesuaikan, cari yang pas
+    .embed-video {
+        margin: 0 auto;
+        padding-top: 50px;
+        // padding: 250px;
+        // padding-top: 50px;
+        width: 75%;
+        @media(max-width:768px) {
+            padding-top: 30px;
+        }
+    }
+    .video-title-container {
+        margin-top: -150px;
+        .video-title-inner {
+            float: right;
+            width: 50%;
+            @media(max-width:768px) {
+                width: 100%;
+                float: none;
+            }
+        }
+    }
+    .video-title {
+        font-weight: 700;
+        color: $primary !important; // secara default, warna .guest-title putih
+        text-align: left;
+    }
+}
+
+// Partner
+
+.partner {
+    .guest-title {
+        color: $primary !important;
+    }
+    .bg-partner {
+        background-image: url('../img/assets/06.png');
+        background-size: cover;
+        width: 100%;
+        height: auto;
+    }
+    img {
+        display: block;
+        margin-left:auto;
+        margin-right:auto;
+        @media(max-width:768px) { // Untuk HP agar tidak terpotong gambarnya
+            max-width: 100%;
+        }
+    }
+}
+
+// Address & Contact
+// Ada di di _contact.scss
+
+// Copyright
+footer {
+    background-image: url('../img/assets/footer-background.png');
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    padding-top: 100px;
+    a {
+        color: white;
+        &:active,
+        &:focus,
+        &:hover {
+            color: darken(white, 50%);
+        }
+    }
+    .footer-middle-container {
+        .footer-social-container {
+            margin: 0 auto;
+        }
+        .footer-tale-container {
+            color: white;
+            margin: 0 auto;
+            margin-top: 20px;
+        }
+        ul.social-buttons {
+            li {
+                a {
+                    color: $primary;
+                    background-color: white;
+                    &:active,
+                    &:focus,
+                    &:hover {
+                        color: white;
+                        background-color: $primary;
+                    }
+                }
+            }
+        }
+    }
+    #footer-logo {
+        width: 150px;
+        height: auto;
+        padding: 10px;
+    }
+}
+
+.copyright-container {
+    color: white;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+// Floating arrow
+.float{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:$primary;
+    color:#FFF;
+    border-radius:10px;
+    text-align:center;
+    box-shadow: 2px 2px white;
+}
+
+.my-float {
+    margin-top:22px;
+}
+
+// Story
+.story {
+    line-height: 0.8;
+    .guest-title {
+        margin-top: 0;
+    }
+    .text-italic {
+        font-style: italic;
+    };
+    .text-bold {
+        font-weight: 700;
+    }
+}
+
+// Custom large screen
+
+@media(min-width:768px) {
+  .maskot-pp-container {
+    margin-top: -150px;
+  }
+  footer {
+    height: 80vh; // kalau global 80vh, nanti tampilan di hp ter-crop
+  }
+}

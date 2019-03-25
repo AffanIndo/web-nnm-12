@@ -1,0 +1,41 @@
+Page Main
+[x] Pilih 3 gambar maskot yang bagus buat header
+[x] Masthead buat yang tanpa maskot, mungkin Bang Ghais udah upload di drive
+[x] Section story di home page (Bang Ghais lagi buat, tapi kalau tidak jadi, maka buat di homepage versi Affan)
+    Versi Affan: Ada title, kemudian synopsis, kemudian ada tombol2 yang mengarah ke page story masing2,
+                 buat yang belum rilis, di gray aja
+    Versi Bang Ghais: Belum jadi
+[x] Template Story: Jadi cukup navbar+container story+footer. Untuk link di navbarnya warna merah.
+    [x] Buat class navbar untuk override warna merah
+    [x] Buat container untuk isi (mungkin buat class bold, atau apalah), sama font yang enak dibaca
+    [x] Footer tidak ada yang berubah
+[x] Template Page Maskot: Sama seperti template story
+[x] Buat tombol to the top melayang di pojok kanan bawah
+[x] Tambah BG Recent reviews
+[x] Guest star statis
+[x] Embed video bumper NNM
+[x] Buat bagian events, statis, cari gambar dan deskripsi yang bagus
+[x] Masukkan logo Media Partner dan Sponshorship
+[x] Buat timeline
+[x] Ganti tulisan pra event jadi pre event
+[x] Hilangkan link story chapter 3
+[x] Masukkan supported (?) by
+[x] Guest star tambah lagi
+[ ] Revisian radiv 13 14
+    [ ] Section logo2 medpart, supported, dan sponsorship dibuat jadi memanjang ke bawah, bukan carousel.
+        Mungkin pakai flexbox biar responsiv? bisa juga pakai image yg widthnya 100% screen terus
+    [ ] Guest star dipisah jadi PE dan ME, saran dari bang ali dibuat accordion, masih kurang jelas tapi jadi nanti tanya lagi
+    [ ] Untuk section timeline, text "inilah perjalanan selama ini" dihapus. Tambah juga timeline terbaru kalau ada
+    [ ] Tambah video lainnya, mungkin ada thumbnail di bawahnya jadi bisa milih video lainnya yang ingin diputar
+[ ] Benerin bug
+    [ ] mobile: gambar_foto_nnm_yg_3_panel dengan video tabrakan
+    [ ] mobile: fontawesome gak muncul
+    [ ] footer selain main page gak bisa karena linknya relatif dari main page
+[ ] Buat git, gitignore, dan github
+
+Page Maskot
+[ ]
+[ ]
+[ ]
+[ ]
+[ ]
