@@ -31,7 +31,7 @@ Page Main
     [ ] mobile: gambar_foto_nnm_yg_3_panel dengan video tabrakan
     [ ] mobile: fontawesome gak muncul
     [ ] footer selain main page gak bisa karena linknya relatif dari main page
-[ ] Buat git, gitignore, dan github
+[X] Buat git, gitignore, dan github
 
 Page Maskot
 [ ]

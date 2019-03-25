@@ -2,6 +2,7 @@
 etc/
 .vimrc
 vendor/
+css/
 
 # Logs
 logs

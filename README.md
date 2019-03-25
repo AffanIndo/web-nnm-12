@@ -6,7 +6,7 @@ Website NNM 12 - Faces of Humanity
 
 ### Folder
 
-* `./css/` - Berisi file CSS yang sudah dicompile dari SCSS. File di dalam folder ini hanya untuk produksi, developer tidak boleh mengedit file di dalam folder ini.
+* `./css/` - Berisi file CSS yang sudah dicompile dari SCSS. File di dalam folder ini hanya untuk produksi, developer tidak boleh mengedit file di dalam folder ini. Folder ini **harus** dimasukkan ke dalam `.gitignore`.
 * `./etc/` - Berisi resource-resource yang dibutuhkan developer, seperti framework, logo-logo, dan gambar-gambar maskot. Folder ini **tidak** untuk diupload ke server. Folder ini **harus** dimasukkan ke dalam `.gitignore`.
 * `./img/` - Berisi gambar-gambar yang dibutuhkan.
 * `./js/` - Berisi script-script yang dibutuhkan. Kebanyakan berasal dari templatenya sehingga sebaiknya jangan diedit.
