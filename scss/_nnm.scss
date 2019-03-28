@@ -1,8 +1,5 @@
 body {
     @include heading-font;
-    .fa, .fas, .fab{ // Prevent the heading font overriding FontAwesome font-family
-        font-family: 'FontAwesome' !important;
-    };
 }
 
 // Size logo NNM
@@ -315,8 +312,13 @@ body {
 // Partner
 
 .partner {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    background-color: #f8f8f8;
     .guest-title {
         color: $primary !important;
+        padding-top: 10vh; // .guest-title default: 50px
+        margin-top: 0; // .guest-title default: 30vh
     }
     .bg-partner {
         background-image: url('../img/assets/06.png');
@@ -324,12 +326,20 @@ body {
         width: 100%;
         height: auto;
     }
-    img {
-        display: block;
-        margin-left:auto;
-        margin-right:auto;
-        @media(max-width:768px) { // Untuk HP agar tidak terpotong gambarnya
-            max-width: 100%;
+    .container-partner {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        .partner-item {
+            margin-left: auto;
+            margin-right: auto;
+            align-self: center; // Supaya tidak stretch
+            max-height: 150px; // Wrapnya agak beda dengan height. Height juga bisa kalau bagus
+            width: auto;
+            @media(max-width:768px) {
+                max-height: 100px; // Supaya tidak stretch
+                max-width: 100%;
+            }
         }
     }
 }

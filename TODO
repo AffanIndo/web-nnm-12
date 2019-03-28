@@ -22,15 +22,18 @@ Page Main
 [x] Masukkan supported (?) by
 [x] Guest star tambah lagi
 [ ] Revisian radiv 13 14
-    [ ] Section logo2 medpart, supported, dan sponsorship dibuat jadi memanjang ke bawah, bukan carousel.
+    [x] Section logo2 medpart, supported, dan sponsorship dibuat jadi memanjang ke bawah, bukan carousel.
         Mungkin pakai flexbox biar responsiv? bisa juga pakai image yg widthnya 100% screen terus
-    [ ] Guest star dipisah jadi PE dan ME, saran dari bang ali dibuat accordion, masih kurang jelas tapi jadi nanti tanya lagi
-    [ ] Untuk section timeline, text "inilah perjalanan selama ini" dihapus. Tambah juga timeline terbaru kalau ada
+    [x] section partner buat backgroundnya jadi bagus
+    [ ] Guest star dipisah jadi PE dan ME, saran dari bang ali dibuat accordion,
+        masih kurang jelas tapi jadi nanti tanya lagi. Dan juga sepertinya harus nunggu konten dulu buat ngisi GS ME
+    [x] Untuk section timeline, text "inilah perjalanan selama ini" dihapus.
+    [x] Tambah timeline baru
     [ ] Tambah video lainnya, mungkin ada thumbnail di bawahnya jadi bisa milih video lainnya yang ingin diputar
 [ ] Benerin bug
     [ ] mobile: gambar_foto_nnm_yg_3_panel dengan video tabrakan
     [ ] mobile: fontawesome gak muncul
-    [ ] footer selain main page gak bisa karena linknya relatif dari main page
+    [x] footer selain main page gak bisa karena linknya relatif dari main page
 [X] Buat git, gitignore, dan github
 
 Page Maskot
