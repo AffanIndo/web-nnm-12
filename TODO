@@ -30,9 +30,10 @@ Page Main
     [x] Untuk section timeline, text "inilah perjalanan selama ini" dihapus.
     [x] Tambah timeline baru
     [ ] Tambah video lainnya, mungkin ada thumbnail di bawahnya jadi bisa milih video lainnya yang ingin diputar
+    [x] synopsis rata kiri kanan, buat jadi rata kiri
 [ ] Benerin bug
-    [ ] mobile: gambar_foto_nnm_yg_3_panel dengan video tabrakan
-    [ ] mobile: fontawesome gak muncul
+    [ ] mobile: gambar_foto_nnm_yg_3_panel dengan video tabrakan (mungkin karena margin diset pakai vh, jadi kalau layar hape beda, sifatnya beda)
+    [x] mobile: fontawesome gak muncul
     [x] footer selain main page gak bisa karena linknya relatif dari main page
 [X] Buat git, gitignore, dan github
 
